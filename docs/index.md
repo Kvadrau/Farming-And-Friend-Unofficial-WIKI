@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: default
+layout: home
 
 hero:
   name: "Farming and Friends WIKI"
