@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: alt
       text: Main Wiki
-      link: /
+      link: /Main/Main/main
     - theme: alt
       text: Beginners Guide
       link: /Main/beginners-guide/getting-started
     - theme: alt
       text: Events
-      link: /
+      link: /Main/Event/main
 
 features:
   - title: Wiki
