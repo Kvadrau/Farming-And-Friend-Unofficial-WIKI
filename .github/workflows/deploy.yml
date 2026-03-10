@@ -1,12 +1,9 @@
 name: Deploy VitePress
-  uses: peaceiris/actions-gh-pages@v3
-  with:
-    personal_token: ${{ secrets.GH_PAT }}   # <-- use your PAT secret
-    publish_dir: ./docs/.vitepress/dist
+
 on:
   push:
     branches:
-      - main   # Trigger on pushes to the main branch
+      - main  # Trigger on pushes to the main branch
 
 jobs:
   build:
@@ -30,5 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # Use the default token provided by GitHub Actions
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Ensure this path matches where your VitePress build actually goes
           publish_dir: ./docs/.vitepress/dist
