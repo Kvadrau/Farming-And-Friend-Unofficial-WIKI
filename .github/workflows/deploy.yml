@@ -1,5 +1,8 @@
 name: Deploy VitePress
-
+  uses: peaceiris/actions-gh-pages@v3
+  with:
+    personal_token: ${{ secrets.GH_PAT }}   # <-- use your PAT secret
+    publish_dir: ./docs/.vitepress/dist
 on:
   push:
     branches:
