@@ -9,27 +9,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          text: 'Beginners Guide',
-          items: [
-            { text: 'Overview', link: '/guide/getting-started' },
-            { text: 'Stage 1: Getting Started', link: '/guide/stage1' },
-            { text: 'Stage 2: Basic Farming', link: '/guide/stage2' },
-            { text: 'Stage 3: Expanding Your Farm', link: '/guide/stage3' }
-          ]
-        },
-        {
-          text: 'Other Guides',
-          items: [
-            { text: 'Basic Farming', link: '/guide/basic-farming' },
-            { text: 'Advanced Techniques', link: '/guide/advanced-techniques' },
-            { text: 'Contributing', link: '/guide/contributing' }
-          ]
-        }
-      ]
-    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/example/farming-and-friends-wiki' }
     ]
