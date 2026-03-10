@@ -1,3 +1,10 @@
+# Welcome to the Farming and Friends Wiki
+
+This is your main homepage. Explore the sections below:
+- 📚 Guides
+- 🛠 Tutorials
+- 📰 Updates and announcements
+
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: default
