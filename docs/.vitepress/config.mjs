@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Farming And Friends Wiki',
   description: 'A comprehensive wiki for Farming And Friends',
+  base: '/Farming-And-Friend-Unofficial-WIKI/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
