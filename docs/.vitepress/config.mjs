@@ -16,7 +16,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/example/farming-and-friends-wiki' }
+      { icon: 'discord', link: 'https://discord.com/invite/jadgXrBAsf' }
     ]
   },
   head: [
