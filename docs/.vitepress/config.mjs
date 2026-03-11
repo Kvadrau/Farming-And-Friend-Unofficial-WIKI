@@ -16,7 +16,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.com/invite/jadgXrBAsf' }
+      { icon: 'discord', link: 'https://discord.gg/dunngames' }
     ]
   },
   head: [
