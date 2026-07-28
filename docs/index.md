@@ -14,7 +14,7 @@ hero:
       link: /Main/Main/main
     - theme: alt
       text: Beginners Guide
-      link: /Main/beginners-guide/getting-started
+      link: /Main/beginners-guide/Getting-Started/introduction
     - theme: alt
       text: Events
       link: /Main/Event/main

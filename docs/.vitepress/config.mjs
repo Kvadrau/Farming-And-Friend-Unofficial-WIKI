@@ -6,13 +6,35 @@ export default defineConfig({
   base: '/Farming-And-Friend-Unofficial-WIKI/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Home', link: '/Main/Tester/command' }
     ],
-    
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/example/farming-and-friends-wiki' }
-    ]
+      { icon: 'discord', link: 'https://discord.com/invite/DunnGames' }
+    ],
+    sidebar: {
+      '/Main/beginners-guide/': [
+        {
+          text: 'Getting Started',
+          collapsed: false,
+          items: [
+            { text: 'Introduction', link: '/Main/beginners-guide/Getting-Started/introduction' },
+            { text: `Getting Started`, link: `/Main/beginners-guide/Getting-Started/getting-started` }
+          ]
+        },
+        {
+          text: `Early Game`,
+          collapsed: false,
+          items: [
+            { text: `Harvesting`, link: `/Main/beginners-guide/Early-Game/Harvesting` },
+            { text: `Selling`, link: `/Main/beginners-guide/Early-Game/Selling` },
+            { text: `Plowing`, link: `/Main/beginners-guide/Early-Game/Plowing` },
+            { text: `Cultivating`, link: `/Main/beginners-guide/Early-Game/Cultivating` },
+            { text: `Planting`, link: `/Main/beginners-guide/Early-Game/Planting` }
+          ]
+        }
+      ]
+    }
   },
   head: [
     ['style', {}, `
